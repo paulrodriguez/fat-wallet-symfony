@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Response;
 class JsonController extends Controller
 {
     /**
-     * @Route("/{}", name="homepage")
+     * @Route("/json", name="homepage")
      */
     public function indexAction(Request $request)
     {

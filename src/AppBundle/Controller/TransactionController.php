@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Response;
 class TransactionController extends Controller
 {
     /**
-     * @Route("/{}", name="homepage")
+     * @Route("/transactions", name="homepage")
      */
     public function indexAction(Request $request)
     {
